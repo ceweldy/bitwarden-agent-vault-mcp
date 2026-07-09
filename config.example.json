@@ -1,0 +1,7 @@
+{
+  "serverUrl": "https://vault.bitwarden.com",
+  "defaultProjectId": "replace-with-your-bitwarden-project-id",
+  "allowPlaintextReveal": false,
+  "allowCommandExecution": false,
+  "allowedExecutables": []
+}

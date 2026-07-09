@@ -1,0 +1,30 @@
+{
+  "name": "bitwarden-agent-vault",
+  "version": "0.2.0",
+  "private": true,
+  "type": "module",
+  "description": "Local Bitwarden Secrets Manager MCP server for Codex.",
+  "license": "MIT",
+  "author": "Connor Weldy",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ceweldy/bitwarden-agent-vault.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ceweldy/bitwarden-agent-vault/issues"
+  },
+  "homepage": "https://github.com/ceweldy/bitwarden-agent-vault#readme",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "start": "node ./mcp/server.mjs",
+    "test": "node --test ./test/*.test.mjs",
+    "check": "node ./scripts/validate-release.mjs && node --check ./mcp/server.mjs && npm test",
+    "prepack": "npm run check"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "1.29.0",
+    "zod": "4.4.3"
+  }
+}

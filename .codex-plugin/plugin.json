@@ -1,0 +1,36 @@
+{
+  "name": "bitwarden-agent-vault",
+  "version": "0.2.0",
+  "description": "Persistent Bitwarden Secrets Manager access for Codex through a local MCP server and credential workflow skill.",
+  "author": {
+    "name": "Connor Weldy"
+  },
+  "homepage": "https://github.com/ceweldy/bitwarden-agent-vault",
+  "repository": "https://github.com/ceweldy/bitwarden-agent-vault",
+  "license": "MIT",
+  "keywords": [
+    "bitwarden",
+    "codex",
+    "mcp",
+    "secrets-manager"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Bitwarden Agent Vault",
+    "shortDescription": "Persistent agent access to Bitwarden secrets.",
+    "longDescription": "Store, find, retrieve, and use Bitwarden Secrets Manager credentials from Codex while keeping the machine token in the local OS keychain.",
+    "developerName": "Connor Weldy",
+    "category": "Productivity",
+    "capabilities": [
+      "Interactive",
+      "Read",
+      "Write"
+    ],
+    "defaultPrompt": [
+      "Find the credential this task needs in Bitwarden.",
+      "Automatically store every durable password or API key created in this task in the agent vault.",
+      "Open my Bitwarden Secrets Manager vault."
+    ]
+  },
+  "mcpServers": "./.mcp.json"
+}
