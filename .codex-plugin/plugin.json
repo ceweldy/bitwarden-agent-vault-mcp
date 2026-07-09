@@ -5,8 +5,8 @@
   "author": {
     "name": "Connor Weldy"
   },
-  "homepage": "https://github.com/ceweldy/bitwarden-agent-vault",
-  "repository": "https://github.com/ceweldy/bitwarden-agent-vault",
+  "homepage": "https://github.com/ceweldy/bitwarden-agent-vault-mcp",
+  "repository": "https://github.com/ceweldy/bitwarden-agent-vault-mcp",
   "license": "MIT",
   "keywords": [
     "bitwarden",
@@ -16,8 +16,8 @@
   ],
   "skills": "./skills/",
   "interface": {
-    "displayName": "Bitwarden Agent Vault",
-    "shortDescription": "Persistent agent access to Bitwarden secrets.",
+    "displayName": "Bitwarden Agent Vault MCP",
+    "shortDescription": "Bitwarden Secrets Manager MCP for Codex.",
     "longDescription": "Store, find, retrieve, and use Bitwarden Secrets Manager credentials from Codex while keeping the machine token in the local OS keychain.",
     "developerName": "Connor Weldy",
     "category": "Productivity",

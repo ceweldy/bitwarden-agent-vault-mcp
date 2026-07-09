@@ -1,4 +1,4 @@
-# Bitwarden Agent Vault
+# Bitwarden Agent Vault MCP
 
 An unofficial, open-source Codex plugin and local MCP server for using
 [Bitwarden Secrets Manager](https://bitwarden.com/products/secrets-manager/) as
@@ -71,7 +71,7 @@ macOS and Linux shells only.
 Clone the repository into the conventional personal plugin source location:
 
 ```bash
-git clone https://github.com/ceweldy/bitwarden-agent-vault.git \
+git clone https://github.com/ceweldy/bitwarden-agent-vault-mcp.git \
   "$HOME/plugins/bitwarden-agent-vault"
 cd "$HOME/plugins/bitwarden-agent-vault"
 npm ci

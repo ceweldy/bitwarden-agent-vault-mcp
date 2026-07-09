@@ -1,4 +1,4 @@
 interface:
-  display_name: "Bitwarden Agent Vault"
+  display_name: "Bitwarden Agent Vault MCP"
   short_description: "Store and retrieve agent credentials"
   default_prompt: "Use $bitwarden-agent-vault to find or securely store the credential needed for this task."
