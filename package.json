@@ -8,12 +8,12 @@
   "author": "Connor Weldy",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ceweldy/bitwarden-agent-vault.git"
+    "url": "git+https://github.com/ceweldy/bitwarden-agent-vault-mcp.git"
   },
   "bugs": {
-    "url": "https://github.com/ceweldy/bitwarden-agent-vault/issues"
+    "url": "https://github.com/ceweldy/bitwarden-agent-vault-mcp/issues"
   },
-  "homepage": "https://github.com/ceweldy/bitwarden-agent-vault#readme",
+  "homepage": "https://github.com/ceweldy/bitwarden-agent-vault-mcp#readme",
   "engines": {
     "node": ">=20"
   },

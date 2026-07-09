@@ -22,7 +22,7 @@ function loadConfig() {
     return value && typeof value === "object" ? value : {};
   } catch (error) {
     if (error?.code === "ENOENT") return {};
-    throw new Error(`Invalid Bitwarden Agent Vault config at ${CONFIG_PATH}: ${error.message}`);
+    throw new Error(`Invalid Bitwarden Agent Vault MCP config at ${CONFIG_PATH}: ${error.message}`);
   }
 }
 
@@ -256,7 +256,7 @@ const server = new McpServer(
 server.registerTool(
   "status",
   {
-    title: "Check Bitwarden Agent Vault",
+    title: "Check Bitwarden Agent Vault MCP",
     description: "Check local CLI installation, machine-token availability, and optional live Bitwarden access without exposing credentials.",
     inputSchema: { verify_remote: z.boolean().default(true) },
     annotations: { readOnlyHint: true, openWorldHint: true },

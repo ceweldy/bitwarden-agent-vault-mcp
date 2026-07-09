@@ -2,6 +2,14 @@
 
 All notable changes to this project are documented here.
 
+## Unreleased
+
+### Changed
+
+- Renamed the public project and display title to `Bitwarden Agent Vault MCP`
+  for clearer MCP discoverability while preserving the stable
+  `bitwarden-agent-vault` plugin ID.
+
 ## 0.2.0 - 2026-07-09
 
 ### Added

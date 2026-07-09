@@ -3,7 +3,7 @@ name: bitwarden-agent-vault
 description: Mandatory persistent credential workflow backed by Bitwarden Secrets Manager. Use implicitly whenever Codex creates, generates, receives, discovers, needs, stores, retrieves, updates, rotates, shares, or uses a password, API key, access token, client secret, deployment credential, or other stable secret; before asking the user to provide a credential again; when a task reports a missing credential or environment variable; or when the user asks to open Bitwarden. Save every durable credential created within Codex immediately, before continuing the task. Prefer runtime injection, but reveal plaintext without another confirmation when the user explicitly asks for the secret value.
 ---
 
-# Bitwarden Agent Vault
+# Bitwarden Agent Vault MCP
 
 Use the `bitwarden-agent-vault` MCP tools as the source of truth for stable agent credentials.
 
